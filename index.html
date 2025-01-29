@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="heading">
+    <div class="card-wrap">
+      <img src="images/Untitled design2.jpg" alt="Profile Picture" data-testid="profilePicture">
+      <h1 class="full-name" data-testid="fullName">Damilola Amushan</h1>
+      <h2 class="job-title" data-testid="jobTitle">Web Developer</h2>
+      <p class="short-bio" data-testid="shortBio">A web developer who loves playing around with design and tech. I'm into building cool websites and learning new things every day. Always looking for ways to make stuff look and work better</p>
+      <p class="current-location" data-testid="currentLocation">Lagos, Nigeria</p>
+      <a href="mailto:dammylola077@gmail.com" class="email-address" data-testid="emailAddress" target="_blank">dammylola077@gmail.com</a>
+      <a href="https://github.com/DamilolaAmushan" data-testid="socialLinks" target="_blank" class="social-links">GitHub</a>
+      <div data-testid="currentTime" class="currentTime">
+        <p><span id="time"></span></p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
